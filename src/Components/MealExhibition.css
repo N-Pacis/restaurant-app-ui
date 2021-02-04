@@ -1,0 +1,70 @@
+.exhibitionTwo{
+    margin-top:-90px  !important;
+    margin-bottom:-100px !important;
+}
+.meal-exhibition{
+    background-image: linear-gradient(transparent,#fff);
+    height: 210px;
+    width: 180px;
+    margin-right: 35px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+.meal-exhibition:hover{
+    transform:scale(1.05);
+}
+.meal-exhibition:nth-child(1){
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.meal-exhibition:nth-child(3){
+    margin-top: -210px;
+    margin-left: 20px;
+}
+.meal-exhibition:nth-child(4){
+    margin-top: -283px;
+}
+.meal-image{
+    border:3px solid #fff;
+    border-radius: 50%;
+    height: 100px;
+    width: 110px;
+    margin-left: 15px;
+}
+.meal-image>img{
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+    border-radius:50%;
+}
+.meal-exhibition>h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size:15px;
+   margin-left: 5px;
+   font-weight:bold;
+   margin-top: 10px;
+}
+.meal-exhibition>.description{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left:5px;
+    color: rgb(155, 155, 155);
+    margin-top:-8px;
+}
+.meal-exhibition>h2{
+    font-weight: bold;
+    font-size:15px;
+    display:inline;
+    margin-left: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.meal-exhibition>.MuiSvgIcon-root{
+    margin-left:80%;
+    margin-top:-40px !important;
+    font-size:22px;
+    font-weight:100;
+}
+.liked{
+    color: rgba(224, 17, 17, 0.836);
+}

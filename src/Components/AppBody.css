@@ -1,0 +1,7 @@
+.app-body{
+    background-image: linear-gradient(rgb(245, 245, 245),transparent);
+    border:1px solid #ccc;
+    border-radius: 15px;
+    height:100vh;
+    width:100%;
+}

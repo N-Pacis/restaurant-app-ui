@@ -1,0 +1,44 @@
+.nav-bar{
+    display: flex;
+}
+.icon{
+    width:55%;
+    padding: 17px 25px;
+}
+.icon>.MuiSvgIcon-root{
+    height: 40px !important;
+    width: 40px !important;
+}
+.nav-links{
+    float: right;
+    padding-top: 15px;
+    display:flex;
+    width: 45%;
+}
+.nav-links>button{
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    margin-top: 10px;
+    margin-left: 30%;
+    height: 30px;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius:25px;
+    outline: none;
+}
+.nav-links>ul{
+    list-style: none;
+    display: flex;
+    float: left;
+    width: 35%;
+}
+.nav-links>ul>li{
+    color: rgb(22, 22, 22) !important;
+    cursor: pointer;
+    font-size:16px;
+    padding-right: 25%;
+    font-weight: bold;
+}

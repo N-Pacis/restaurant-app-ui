@@ -1,0 +1,43 @@
+.food-type{
+    padding: 5px 50px;
+    width: 50%;
+}
+.food-type>.main-dish>img{
+    margin-top: -70px;
+    height: 420px;
+    width: 550px;
+    margin-left:-90px;
+}
+.main-dish>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+}
+.main-dish>.image-two{
+    position: absolute;
+    left: 360px !important;
+    padding-top: 120px; 
+    width:300px !important;
+    height: 130px !important;
+    z-index: 1;
+}
+.main-dish>.image-three{
+    position: absolute;
+    z-index: 0;
+    opacity: 0.2;
+    left: 220px !important;
+    padding-top: 150px; 
+    width: 340px !important;
+    height: 120px !important;
+}
+.main-dish>h2{
+    font-weight: 120 !important;
+    color: rgba(0, 0, 0, 0.877);
+    font-size:40px;
+    margin-top:-25px;
+}
+.main-dish>p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-size:16px;
+    margin-top:-30px;
+}
